@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Teams</title>
+        <link rel="stylesheet" href="styles/external/fontawesome-free-5.15.2-web/css/all.min.css">
+        <link rel="stylesheet" href="styles/nav.css">
+        <link rel="stylesheet" href="styles/utils.css">
+        <link rel="stylesheet" href="styles/calendar.css">
+        <link rel="stylesheet" href="styles/teams.css">
+
+</head>
+<body>
+    
+    <nav class="nav-main">
+        <div class="nav container nav-wrapper nav-desktop">
+        <ul class="list-unstyle">
+            <li><a href="calendar.html">Calendar</a></li>
+            <li><a href="add-meeting.html">Meetings</a></li>
+            <li class="nav-link-active"><a href="teams.html">Teams</a></li>
+        </ul>
+        <ul class="list-unstyle">
+            <li>Hello <span class="email-id">jane.doe@example.com!  </span></li>
+            <li><a href="login.html">Logout</a></li>
+        </ul>
+        </div>
+        <div class="container nav-wrapper nav-bar-mobile">
+            <h2>Meetings</h2>
+            <button class="btn-icon btn-menu"><i class="fas fa-bars"></i></button>
+        </div>
+        <div class="container nav-mobile hide">
+            <ul class="nav">
+                <li>
+                    <a href="calendar.html">Calendar</a>
+                </li>
+                <li>
+                    <a href="add-meeting.html">Meetings</a>
+                </li>
+                <li class="nav-link-active">
+                    <a href="teams.html">Teams</a>
+                </li>
+                <li>Hello <span class="email-id">jane.doe@example.com!  </span></li>
+                <li><a href="login.html">Logout</a></li>
+            </ul>
+        </div>
+    </nav>
+    <section class="container">
+        <h1>Teams</h1>
+        <hr>
+        <p>view and edit teams you are part of</p>
+        <div class="teams-row d-type">
+            <div class="teams-col box-border-style">
+                <h2>Customer acqusition campaign</h2>
+                <p class="team-tag">@customer-acqusition</p>
+                <p>Team to come up with stratagies to win over customers by end of FY21</p>
+                <button class="btn btn-danger">Excuse yourself</button>
+                <br>
+                <p><strong>Members:</strong>john@example.com, jane@example.com</p>
+                <select name="" id="">
+                    <option value=""></option>
+                    <option value="">john@example.com</option>
+                    <option value="">jane@example.com</option>
+                </select>
+                <button class="btn btn-primary">Add</button>
+            </div>
+            <div class="teams-col box-border-style">
+                <h2>MERN stack training</h2>
+                <p class="team-tag">@mern-stack-training</p>
+                <p>Group attending MERN stack training for website revamp Project</p>
+                <button class="btn btn-danger">Excuse yourself</button>
+                <br>
+                <p><strong>Members:</strong>john@example.com, jane@example.com</p>
+                <select name="teams-email" id="teams-email">
+                    <option value=""></option>
+                    <option value="">john@example.com</option>
+                    <option value="">jane@example.com</option>
+                </select>
+                <button class="btn btn-primary">Add</button>
+            </div>
+            <div class="teams-col box-border-style d-type justify-content-center aligin-items-center"><strong>+</strong></div>
+        </div>
+    </section>
+    <script src="./js/app.js"></script>
+</body>
+</html>

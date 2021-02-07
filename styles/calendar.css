@@ -1,0 +1,69 @@
+.date{
+    justify-content: space-between;
+    align-self: center;
+    margin-top: 1rem;
+}
+
+.date li{
+    display: block;
+    
+}
+.date li:nth-child(1){
+    font-weight: 700;
+}
+
+.date li:nth-child(2){
+    font-weight: 400;
+    color: #999999;
+}
+.hour {
+    width: calc(86.60531% + 1rem);
+    height: 2.5rem;
+    margin:0.2rem 2rem 0.2rem 4.3rem;
+    justify-content: space-between;
+    z-index: 0;
+}
+.hour-number{
+    width: 1rem;
+}
+.hour-box{
+    width: 100%;
+    background-color: rgb(115,200,213);
+    
+}
+.event {
+    width: 98.34319%;
+    background-color: rgb(227, 235, 237);
+    height: 2.3rem;
+    margin: 0 auto;
+    margin-top: 0.1rem;
+}
+.event p{
+    margin: 0;
+    font-size: 0.8rem;
+}
+.event-2{
+    position: relative;
+    height: 3.5rem;
+    z-index: 2;
+}
+hr {
+    border-style: solid none none;
+    margin:0;
+}
+
+@media all and (max-width:400px){
+    .hour{
+        margin: 0.2rem 0rem 0.2rem 0.5rem;
+    }
+    
+    .date div{
+        position: relative;
+        width: 40%;
+    }
+    .date input{
+        width:50%;
+        position: absolute;
+        right: 0;
+    }
+}

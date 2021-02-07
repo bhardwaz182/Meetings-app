@@ -1,0 +1,56 @@
+
+h2{
+    font-size: 1rem;
+    display: inline-block;
+    font-weight: 400;
+    padding-left:0.5rem ;
+    padding-right: 0.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-bottom: 0.5rem;
+    
+}
+h2 a{
+    text-decoration:none ;
+    color: black;
+}
+h3{
+    color: white;
+    margin-top: 0;
+    font-size: 1.5rem;
+}
+hr {
+    border-style: solid none none;
+}
+
+.container .active{
+    color: black;
+    background-color: #777;
+}
+.main {
+    background-color: rgb(115, 199, 213);
+    padding-bottom: 2rem;
+    padding-top:1rem;
+}
+
+.main-width{
+    width: 95.85211%;
+    margin: 0 auto;
+}
+.space-above-below{
+    margin-top: 0.75rem;
+    margin-bottom: 0.75rem;
+    height: 2rem;
+    border-radius: 2px;
+    border-style: none;
+}
+
+.desc-height{
+    height: 4rem;
+}
+
+.add-meeting-form p{
+    margin-top: 0;
+    color: white;
+    font-size: 0.9rem;
+}
